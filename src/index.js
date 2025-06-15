@@ -19,3 +19,15 @@ const name = nameInput.value.trim();
     const li = document.createElement('li');
     li.classList.add('guest-item'); // Common styling
     li.classList.add(category.toLowerCase()); // Category color styling
+
+        li.innerHTML = `
+  <div class="guest-row">
+    <span class="guest-name">${name}</span>
+    <span class="guest-category">(${category})</span>
+    <span class="timestamp">${timestamp}</span>
+    <button class="edit-btn">Edit</button>
+    <button class="rsvp-btn">Not Attending</button>
+    <button class="remove-btn">Delete</button>
+  </div>
+`;
+
