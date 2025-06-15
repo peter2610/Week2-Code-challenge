@@ -31,3 +31,17 @@ const name = nameInput.value.trim();
   </div>
 `;
 
+    guestList.appendChild(li);
+    nameInput.value = '';
+  });
+
+  guestList.addEventListener('click', function (e) {
+    const li = e.target.closest('li');
+
+    if (e.target.classList.contains('remove-btn')) {
+      li.remove();
+    }
+
+    if (e.target.classList.contains('rsvp-btn')) {
+      const btn = e.target;
+      const isAttending = btn.textContent === 'Attending';
