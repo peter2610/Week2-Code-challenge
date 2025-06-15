@@ -46,8 +46,8 @@ This is a simple web application that allows users to manage an event guest list
   - 🟡 Family: Yellow
   - 🔵 Colleague: Blue
 - RSVP status changes the background color:
-  - Green for attending
-  - Red for not attending
+  - very pale Green for attending
+  - very plae Red for not attending
 
 ### Author
 
