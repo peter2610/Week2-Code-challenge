@@ -11,3 +11,11 @@ document.addEventListener('DOMContentLoaded', () => {
       alert("Guest list limit of 10 reached!");
       return;
     }
+const name = nameInput.value.trim();
+    const category = categoryInput.value;
+    const timestamp = new Date().toLocaleString();
+
+    // Create guest list item
+    const li = document.createElement('li');
+    li.classList.add('guest-item'); // Common styling
+    li.classList.add(category.toLowerCase()); // Category color styling
