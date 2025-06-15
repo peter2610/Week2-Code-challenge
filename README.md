@@ -31,7 +31,7 @@ This is a simple web application that allows users to manage an event guest list
 
 <!-- screenshot  -->
 
-![alt text](image.png)
+![alt text](image-1.png)
 
 ### 🧪 How to Use
 
