@@ -53,3 +53,12 @@ const name = nameInput.value.trim();
       li.classList.toggle('rsvp-attending', !isAttending);
       li.classList.toggle('rsvp-not-attending', isAttending);
     }
+
+    if (e.target.classList.contains('edit-btn')) {
+      const nameSpan = li.querySelector('.guest-name');
+      const newName = prompt("Edit guest name:", nameSpan.textContent);
+      if (newName) nameSpan.textContent = newName.trim();
+    }
+  });
+});
+
