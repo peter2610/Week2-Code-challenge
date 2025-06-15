@@ -90,3 +90,48 @@ button:hover {
   font-size: 18px;
   color: #333;
 }
+
+
+.guest-category {
+  font-size: 14px;
+  font-style: italic;
+  margin-left: 10px;
+}
+
+.timestamp {
+  font-size: 12px;
+  color: #666;
+  margin-left: 10px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  pad: 10px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.friend {
+    padding: 20px;
+    border-bottom: 10px;
+  border-left-color: #28a745;
+}
+
+.family {
+    padding: 20px;
+  border-left-color: #ffc107;
+}
+
+.colleague {
+  border-left-color: #17a2b8;
+}
+
+.rsvp-attending {
+  background-color: #d4edda;
+}
+
+.rsvp-not-attending {
+  background-color: #f8d7da;
+}
