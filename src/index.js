@@ -45,3 +45,11 @@ const name = nameInput.value.trim();
     if (e.target.classList.contains('rsvp-btn')) {
       const btn = e.target;
       const isAttending = btn.textContent === 'Attending';
+
+      // Toggle text
+      btn.textContent = isAttending ? 'Not Attending' : 'Attending';
+
+      // Toggle class
+      li.classList.toggle('rsvp-attending', !isAttending);
+      li.classList.toggle('rsvp-not-attending', isAttending);
+    }
